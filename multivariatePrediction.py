@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May  5 13:26:56 2022
-
-@author: larissa
-"""
-
 #from prediction import estacoes_t
 import os
 import pandas as pd
@@ -18,27 +10,6 @@ import cv2
 
 import subprocess
 from os.path import abspath
-
-'''
-#Importando pacotes necessarios para conversao R -> Python
-import rpy2
-import rpy2.robjects as robjects
-from rpy2.robjects.packages import importr, data
-
-#Loading basic R packages
-utils = importr('utils')
-base = importr('base')
-
-#Loading gstats
-utils.chooseCRANmirror(ind=1)
-utils.install_packages('gstat')
-gstat = importr('gstat')
-
-#from rpy2.robjects import pandas2ri
-
-#from rpy2.robjects.packages import gstat
-#from rpy2.robjects.conversion import localconverter
-'''
 
 #Importando os dados já completos de prediction
 
